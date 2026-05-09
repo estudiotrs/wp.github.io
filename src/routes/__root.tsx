@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "estudiotrs" },
+      { name: "description", content: "Estudio TRS: Storytelling de alta fidelidad. Unimos sabiduría ancestral y vanguardia digital para crear el misterio que ilumina y transforma su marca." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "estudiotrs" },
+      { property: "og:description", content: "Estudio TRS: Storytelling de alta fidelidad. Unimos sabiduría ancestral y vanguardia digital para crear el misterio que ilumina y transforma su marca." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "estudiotrs" },
+      { name: "twitter:description", content: "Estudio TRS: Storytelling de alta fidelidad. Unimos sabiduría ancestral y vanguardia digital para crear el misterio que ilumina y transforma su marca." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7838130a-5c90-48c7-a7d1-12099e11474f/id-preview-591d63e6--74e1cc60-b07c-4984-956b-f2a4fc67e319.lovable.app-1778352050394.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7838130a-5c90-48c7-a7d1-12099e11474f/id-preview-591d63e6--74e1cc60-b07c-4984-956b-f2a4fc67e319.lovable.app-1778352050394.png" },
     ],
     links: [
       {
